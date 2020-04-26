@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
-//import { MatListOption } from '@angular/material/list'; 
-
 import { ActivatedRoute } from "@angular/router";
-import { isDefined } from '@angular/compiler/src/util';
-//import { Router } from "@angular/router";
-//import { Router, RoutesRecognized } from '@angular/router';
 
 interface transaction {
   balance: number;
