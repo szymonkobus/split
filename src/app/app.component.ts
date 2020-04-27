@@ -57,8 +57,6 @@ export class AppComponent {
   names = wager.columns
   transaction_history = wager.transaction_history
 
-  //url data
-  initial_names: string
   // form input
   payer: string
   payees: string []
@@ -71,9 +69,7 @@ export class AppComponent {
     })
   }
 
-  ngOnInit(): void {
-    console.log(this.initial_names)
-  }
+  ngOnInit(): void {}
   addRow(cost:number, payer:any [], payees_obj: any [], HTMLtable){
     console.log(payer)
     wager.addTransaction(cost,payer,payees_obj)
